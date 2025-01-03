@@ -756,6 +756,7 @@ class _BaseSettings(BaseSettings):
     auth_enabled: bool = True
     sanitize_answer: bool = False
     use_promptflow: bool = False
+    jwt_secret: str = Field(..., env='JWT_SECRET')
 
 
 class _AppSettings(BaseModel):

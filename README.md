@@ -2,6 +2,9 @@
 
 This repo contains sample code for a simple chat webapp that integrates with Azure OpenAI. Note: some portions of the app use preview APIs.
 
+## Modified
+Use env `JWT_SECRET=your_jwt_secret` to authenticate requests with your jwt tokens
+
 ## Prerequisites
 - An existing Azure OpenAI resource and model deployment of a chat model (e.g. `gpt-35-turbo-16k`, `gpt-4`)
 - To use Azure OpenAI on your data, one of the following data sources:
